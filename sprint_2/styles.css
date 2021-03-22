@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/* variables*/
+/*maquetació*/
+.navbar {
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar .navbar-brand {
+  margin-left: 20px;
+  min-width: 40px;
+  max-width: 80px;
+}
+
+.navbar a :hover {
+  color: #435560;
+}
+
+.modal {
+  border: 1px solid #888;
+}
+
+.modal .form-group {
+  padding-bottom: 10px;
+}
+
+.modal .formulari2 {
+  padding-top: 15px;
+}
+
+.modal .form-check-label input[type="checkbox"] {
+  margin-right: 0.4em;
+}
+
+.jumbotron {
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: #d8f7d8;
+  color: #000000;
+}
+
+.jumbotron h1 {
+  font-size: 66px;
+  font-weight: 600;
+  line-height: 80px;
+}
+
+.jumbotron p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.jumbotron .btn-light {
+  background-color: white;
+  color: #000000;
+}
+
+.jumbotron .display-4 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.content-center {
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
+
+.btn {
+  font-size: 14px;
+  padding: 15px 26px;
+  min-width: 160px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.btn .btn-success {
+  color: #fff;
+}
+
+.btn .login-icon {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.navbar .navbar.toggler {
+  font-size: 14px;
+}
+
+.modal .btn {
+  color: #fff;
+}
+
+#loginregistre {
+  margin-right: 20px;
+}
+
+.carousel {
+  width: 100%;
+  border-radius: 1%;
+}
+
+.footer {
+  padding: 20px 8px 0 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a :hover {
+  color: #435560;
+}
+
+@media (min-width: 576px) {
+  .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .navbar .collapse {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .navbar .collapse {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

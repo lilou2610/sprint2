@@ -1,0 +1,150 @@
+/* variables*/
+
+@import "custom";
+$fontstandard: 14px;
+$fontsuse: Arial,
+Helvetica,
+sans-serif;
+
+
+/*maquetació*/
+
+.navbar {
+    padding-top: 20px;
+    font-family: $fontsuse;
+
+    .navbar-brand {
+        margin-left: 20px;
+        min-width: 40px;
+        max-width: 80px;
+    }
+    a :hover {
+      color: $colorhover;
+    }
+}
+
+.modal {
+     border: 1px solid #888;
+     .form-group {
+         padding-bottom: 10px;
+     }
+     .formulari2 {
+         padding-top: 15px;
+     }
+    .form-check-label input[type="checkbox"] {
+        margin-right: 0.4em;
+    }
+
+}
+
+.jumbotron {
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: $colorgreen;
+    color: $colorblack;
+
+    h1 {
+        font-size: 66px;
+        font-weight: 600;
+        line-height: 80px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.8;
+        color: $colorblack;
+        margin-bottom: 5px;
+    }
+
+    .btn-light {
+        background-color: white;
+        color: $colorblack;
+    }
+    .display-4 {
+        font-family: 'Roboto',
+        sans-serif;
+    }
+}
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+
+}
+
+
+.btn {
+  font-size: $fontstandard;
+  padding: 15px 26px;
+  min-width: 160px;
+  border-radius: 2px;
+  display: inline-block;
+  .btn-success {
+      color: $btnother;
+  }
+  .login-icon {
+      font-size: $fontstandard;
+      margin-left: 5px;
+  }
+}
+.navbar {
+    .navbar.toggler {
+      font-size: $fontstandard;
+    }
+
+}
+.modal {
+    .btn {
+        color: $btnother;
+    }
+}
+
+#loginregistre {
+    margin-right: 20px;
+}
+
+.carousel {
+    width: 100%;
+    border-radius: 1%;
+}
+
+.footer {
+    padding: 20px 8px 0 0;
+    text-align: center;
+    font-family: $fontsuse;
+;
+
+     a {
+    text-decoration: none;
+     }
+
+    a :hover {
+        color: $colorhover;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        .collapse {
+            align-items: center;
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+
+        .collapse {
+            align-items: center;
+        }
+    }
+}
